@@ -1,0 +1,23 @@
+{
+  "name": "bench",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "format": "pnpm prettier -w .",
+    "lint": "pnpm eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-foxkit": "^3.0.2",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.1"
+  }
+}
